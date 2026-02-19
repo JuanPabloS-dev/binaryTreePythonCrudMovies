@@ -1,5 +1,5 @@
-from node import Node
-from tree import Tree
+from src.node import Node
+from src.tree import Tree
 
 peliculas = Tree()
 movies = peliculas.importar_json("movies.json")

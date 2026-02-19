@@ -1,5 +1,5 @@
-from node import Node
-from Movies import Movies
+from src.node import Node
+
 import json
 import os
 from typing import Optional, Generator
@@ -74,14 +74,14 @@ class Tree:
             
     def guardar_json(self):
         base_dir = os.path.dirname(os.path.abspath(__file__))
-        ruta = os.path.join(base_dir,"mos.json")
+        ruta = os.path.join(base_dir,"..","data","movies.json")
         contenido = [p.value for p in self.recorrer("pre")]
         with open(ruta,"w",encoding="utf-8") as f:
             json.dump(contenido,f,indent=4,ensure_ascii=False)
     
     def importar_json(self,archivo):
         base_dir = os.path.dirname(os.path.abspath(__file__))
-        ruta = os.path.join(base_dir,archivo)
+        ruta = os.path.join(base_dir,"..",archivo)
         with open(ruta,"r",encoding="utf-8") as f:
            datos = json.load(f)
         return datos
