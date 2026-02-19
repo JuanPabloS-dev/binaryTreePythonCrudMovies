@@ -1,0 +1,127 @@
+[
+    {
+        "name": "Inception",
+        "country": "USA",
+        "year": 2010,
+        "director": "Christopher Nolan",
+        "actors": [
+            "Leonardo DiCaprio",
+            "Joseph Gordon-Levitt",
+            "Elliot Page"
+        ],
+        "poster": "https://example.com/inception.jpg",
+        "description": "A skilled thief enters people's dreams to steal secrets."
+    },
+    {
+        "name": "Amélie",
+        "country": "France",
+        "year": 2001,
+        "director": "Jean-Pierre Jeunet",
+        "actors": [
+            "Audrey Tautou",
+            "Mathieu Kassovitz"
+        ],
+        "poster": "https://example.com/amelie.jpg"
+    },
+    {
+        "name": "City of God",
+        "country": "Brazil",
+        "year": 2002,
+        "director": "Fernando Meirelles",
+        "actors": [
+            "Alexandre Rodrigues",
+            "Leandro Firmino"
+        ],
+        "poster": "https://example.com/cityofgod.jpg",
+        "description": "Two boys grow up in a violent neighborhood in Rio de Janeiro."
+    },
+    {
+        "name": "Gladiator",
+        "country": "USA",
+        "year": 2000,
+        "director": "Ridley Scott",
+        "actors": [
+            "Russell Crowe",
+            "Joaquin Phoenix"
+        ],
+        "poster": "https://example.com/gladiator.jpg",
+        "description": "A former Roman general seeks revenge against a corrupt emperor."
+    },
+    {
+        "name": "Parasite",
+        "country": "South Korea",
+        "year": 2019,
+        "director": "Bong Joon-ho",
+        "actors": [
+            "Song Kang-ho",
+            "Lee Sun-kyun",
+            "Cho Yeo-jeong"
+        ],
+        "poster": "https://example.com/parasite.jpg",
+        "description": "A poor family schemes to become employed by a wealthy family."
+    },
+    {
+        "name": "Interstellar",
+        "country": "USA",
+        "year": 2014,
+        "director": "Christopher Nolan",
+        "actors": [
+            "Matthew McConaughey",
+            "Anne Hathaway",
+            "Jessica Chastain"
+        ],
+        "poster": "https://example.com/interstellar.jpg",
+        "description": "Explorers travel through a wormhole in space to save humanity."
+    },
+    {
+        "name": "The Godfather",
+        "country": "USA",
+        "year": 1972,
+        "director": "Francis Ford Coppola",
+        "actors": [
+            "Marlon Brando",
+            "Al Pacino",
+            "James Caan"
+        ],
+        "poster": "https://example.com/godfather.jpg",
+        "description": "The aging patriarch of an organized crime dynasty transfers control to his son."
+    },
+    {
+        "name": "Spirited Away",
+        "country": "Japan",
+        "year": 2001,
+        "director": "Hayao Miyazaki",
+        "actors": [
+            "Rumi Hiiragi",
+            "Miyu Irino"
+        ],
+        "poster": "https://example.com/spiritedaway.jpg",
+        "description": "A young girl enters a magical world ruled by spirits."
+    },
+    {
+        "name": "The Dark Knight",
+        "country": "USA",
+        "year": 2008,
+        "director": "Christopher Nolan",
+        "actors": [
+            "Christian Bale",
+            "Heath Ledger",
+            "Aaron Eckhart"
+        ],
+        "poster": "https://example.com/darkknight.jpg",
+        "description": "Batman faces the Joker, a criminal mastermind."
+    },
+    {
+        "name": "The Matrix",
+        "country": "USA",
+        "year": 1999,
+        "director": "The Wachowskis",
+        "actors": [
+            "Keanu Reeves",
+            "Laurence Fishburne",
+            "Carrie-Anne Moss"
+        ],
+        "poster": "https://example.com/matrix.jpg",
+        "description": "A hacker discovers reality is a simulated illusion."
+    }
+]
