@@ -30,10 +30,11 @@ class Tree:
         else: return
         
     def buscar(self, sku:str) -> Optional[Node]:
-        if(sku == self.root.value["name"]):
-            return self.root
-        else: return self._buscar_recursivo(sku,self.root)
-        
+        if (self.root):
+            if(sku == self.root.value["name"]):
+                return self.root
+            else: return self._buscar_recursivo(sku,self.root)
+        else: return None
     def _buscar_recursivo(self,sku:str, actual:Node):
         if(actual):
             if(sku<actual.value["name"]):
