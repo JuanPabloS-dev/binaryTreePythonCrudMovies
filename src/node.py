@@ -1,4 +1,4 @@
-from src.Movies import Movies
+from src.models.Movies import Movies
 class Node:
     def __init__(self,value: Movies):
         self.value = value

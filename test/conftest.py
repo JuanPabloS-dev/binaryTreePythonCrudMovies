@@ -1,5 +1,5 @@
 import pytest
-from src.Movies import Movies
+from src.models.Movies import Movies
 from src.tree import Tree
 from src.node import Node
 

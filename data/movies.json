@@ -1,127 +1,242 @@
 [
     {
-        "name": "Inception",
-        "country": "USA",
-        "year": 2010,
-        "director": "Christopher Nolan",
-        "actors": [
-            "Leonardo DiCaprio",
-            "Joseph Gordon-Levitt",
-            "Elliot Page"
-        ],
-        "poster": "https://example.com/inception.jpg",
-        "description": "A skilled thief enters people's dreams to steal secrets."
-    },
-    {
-        "name": "Amélie",
-        "country": "France",
+        "id": "5842d073-ca10-4b5a-a2a9-293733846bd3",
+        "sku": 11,
+        "name": "The Lord of the Rings: The Fellowship of the Ring",
         "year": 2001,
-        "director": "Jean-Pierre Jeunet",
-        "actors": [
-            "Audrey Tautou",
-            "Mathieu Kassovitz"
-        ],
-        "poster": "https://example.com/amelie.jpg"
+        "rating": 5,
+        "director": null,
+        "genres": "Fantasy",
+        "actors": [],
+        "poster": "https://devsapihub.com/img-movies/11.jpg",
+        "description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron."
     },
     {
-        "name": "City of God",
-        "country": "Brazil",
-        "year": 2002,
-        "director": "Fernando Meirelles",
-        "actors": [
-            "Alexandre Rodrigues",
-            "Leandro Firmino"
-        ],
-        "poster": "https://example.com/cityofgod.jpg",
-        "description": "Two boys grow up in a violent neighborhood in Rio de Janeiro."
+        "id": "a91c6830-ceb7-4c82-8f67-8e1f74095925",
+        "sku": 6,
+        "name": "12 Angry Men",
+        "year": 1957,
+        "rating": 1.8,
+        "director": null,
+        "genres": "Drama",
+        "actors": [],
+        "poster": "https://devsapihub.com/img-movies/6.jpg",
+        "description": "A jury holdout attempts to prevent a miscarriage of justice by forcing his colleagues to reconsider the evidence."
     },
     {
-        "name": "Gladiator",
-        "country": "USA",
-        "year": 2000,
-        "director": "Ridley Scott",
-        "actors": [
-            "Russell Crowe",
-            "Joaquin Phoenix"
-        ],
-        "poster": "https://example.com/gladiator.jpg",
-        "description": "A former Roman general seeks revenge against a corrupt emperor."
-    },
-    {
-        "name": "Parasite",
-        "country": "South Korea",
-        "year": 2019,
-        "director": "Bong Joon-ho",
-        "actors": [
-            "Song Kang-ho",
-            "Lee Sun-kyun",
-            "Cho Yeo-jeong"
-        ],
-        "poster": "https://example.com/parasite.jpg",
-        "description": "A poor family schemes to become employed by a wealthy family."
-    },
-    {
-        "name": "Interstellar",
-        "country": "USA",
-        "year": 2014,
-        "director": "Christopher Nolan",
-        "actors": [
-            "Matthew McConaughey",
-            "Anne Hathaway",
-            "Jessica Chastain"
-        ],
-        "poster": "https://example.com/interstellar.jpg",
-        "description": "Explorers travel through a wormhole in space to save humanity."
-    },
-    {
+        "id": "bda684a8-f1b8-4c70-8296-e551f191974f",
+        "sku": 3,
         "name": "The Godfather",
-        "country": "USA",
         "year": 1972,
-        "director": "Francis Ford Coppola",
-        "actors": [
-            "Marlon Brando",
-            "Al Pacino",
-            "James Caan"
-        ],
-        "poster": "https://example.com/godfather.jpg",
-        "description": "The aging patriarch of an organized crime dynasty transfers control to his son."
+        "rating": 2.8,
+        "director": null,
+        "genres": "Crime",
+        "actors": [],
+        "poster": "https://devsapihub.com/img-movies/3.jpg",
+        "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son"
     },
     {
-        "name": "Spirited Away",
-        "country": "Japan",
-        "year": 2001,
-        "director": "Hayao Miyazaki",
-        "actors": [
-            "Rumi Hiiragi",
-            "Miyu Irino"
-        ],
-        "poster": "https://example.com/spiritedaway.jpg",
-        "description": "A young girl enters a magical world ruled by spirits."
+        "id": "cd45e938-34c3-4aad-b406-e0a6f2cbb374",
+        "sku": 2,
+        "name": "Jumanji",
+        "year": 2019,
+        "rating": 3.4,
+        "director": null,
+        "genres": "Adventure",
+        "actors": [],
+        "poster": "https://devsapihub.com/img-movies/2.jpg",
+        "description": "In Jumanji: The Next Level, the gang is back but the game has changed."
     },
     {
+        "id": "3c95e4a7-d2a5-4fa3-9b82-f1b753129612",
+        "sku": 1,
+        "name": "The Shawshank Redemption",
+        "year": 1994,
+        "rating": 5,
+        "director": null,
+        "genres": "Drama",
+        "actors": [],
+        "poster": "https://devsapihub.com/img-movies/1.jpg",
+        "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
+    },
+    {
+        "id": "2732966e-d4e7-4e1b-a273-3125f12bf260",
+        "sku": 5,
         "name": "The Dark Knight",
-        "country": "USA",
         "year": 2008,
-        "director": "Christopher Nolan",
-        "actors": [
-            "Christian Bale",
-            "Heath Ledger",
-            "Aaron Eckhart"
-        ],
-        "poster": "https://example.com/darkknight.jpg",
-        "description": "Batman faces the Joker, a criminal mastermind."
+        "rating": 4,
+        "director": null,
+        "genres": "Action",
+        "actors": [],
+        "poster": "https://devsapihub.com/img-movies/5.jpg",
+        "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice."
     },
     {
-        "name": "The Matrix",
-        "country": "USA",
+        "id": "df3279bb-0d63-4008-aef9-21bd9013eedb",
+        "sku": 4,
+        "name": "The Godfather: Part II",
+        "year": 1974,
+        "rating": 4.3,
+        "director": null,
+        "genres": "Crime",
+        "actors": [],
+        "poster": "https://devsapihub.com/img-movies/4.jpg",
+        "description": "The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate."
+    },
+    {
+        "id": "bb9ca9c1-8f8d-458c-99b6-5821dcb54dbc",
+        "sku": 9,
+        "name": "Pulp Fiction",
+        "year": 1994,
+        "rating": 5,
+        "director": null,
+        "genres": "Crime",
+        "actors": [],
+        "poster": "https://devsapihub.com/img-movies/9.jpg",
+        "description": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption."
+    },
+    {
+        "id": "84bf9c92-c01f-4c41-b902-f17cd0b548a3",
+        "sku": 8,
+        "name": "The Lord of the Rings: The Return of the King",
+        "year": 2003,
+        "rating": 1.9,
+        "director": null,
+        "genres": "Fantasy",
+        "actors": [],
+        "poster": "https://devsapihub.com/img-movies/8.jpg",
+        "description": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring."
+    },
+    {
+        "id": "9c72698b-4421-4549-ac1e-8921ad4d5dd0",
+        "sku": 7,
+        "name": "No Hard Feelings",
+        "year": 2023,
+        "rating": 2.4,
+        "director": null,
+        "genres": "Comedy",
+        "actors": [],
+        "poster": "https://devsapihub.com/img-movies/7.jpg",
+        "description": "On the brink of losing her home, a woman agrees to date a wealthy couple's introverted son before he leaves for college."
+    },
+    {
+        "id": "91868eca-446d-456b-9f8f-98340d5431a9",
+        "sku": 10,
+        "name": "The Good, the Bad and the Ugly",
+        "year": 1966,
+        "rating": 4.3,
+        "director": null,
+        "genres": "Western",
+        "actors": [],
+        "poster": "https://devsapihub.com/img-movies/10.jpg",
+        "description": "A bounty hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery."
+    },
+    {
+        "id": "dddd317f-ce2d-41e9-81f5-0f7655dad763",
+        "sku": 16,
+        "name": "Spider-Man: No Way Home",
+        "year": 2021,
+        "rating": 4.6,
+        "director": null,
+        "genres": "Action",
+        "actors": [],
+        "poster": "https://devsapihub.com/img-movies/16.jpg",
+        "description": "With Spider-Man’s identity revealed, Peter asks Doctor Strange for help, leading to multiverse chaos."
+    },
+    {
+        "id": "b16f8e27-eab1-4797-88fb-0a7960f77704",
+        "sku": 14,
+        "name": "Oppenheimer",
+        "year": 2023,
+        "rating": 5,
+        "director": null,
+        "genres": "Biography",
+        "actors": [],
+        "poster": "https://devsapihub.com/img-movies/14.jpg",
+        "description": "The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb."
+    },
+    {
+        "id": "8f4760c3-032e-49a9-9bd6-ec7bbcb91614",
+        "sku": 13,
+        "name": "Dune: Part Two",
+        "year": 2024,
+        "rating": 4.8,
+        "director": null,
+        "genres": "Sci-Fi",
+        "actors": [],
+        "poster": "https://devsapihub.com/img-movies/13.jpg",
+        "description": "Paul Atreides unites with Chani and the Fremen to exact revenge against the conspirators who destroyed his family."
+    },
+    {
+        "id": "b2b0fd26-5b21-4bb3-9a7e-573123ff5fc5",
+        "sku": 12,
+        "name": "Fight Club",
         "year": 1999,
-        "director": "The Wachowskis",
-        "actors": [
-            "Keanu Reeves",
-            "Laurence Fishburne",
-            "Carrie-Anne Moss"
-        ],
-        "poster": "https://example.com/matrix.jpg",
-        "description": "A hacker discovers reality is a simulated illusion."
+        "rating": 4.2,
+        "director": null,
+        "genres": "Drama",
+        "actors": [],
+        "poster": "https://devsapihub.com/img-movies/12.jpg",
+        "description": "An insomniac office worker and a devil-may-care soapmaker form an underground fight club that evolves into something much, much more."
+    },
+    {
+        "id": "cbbf52c1-3c41-4067-83d2-8aa1e5eb3fcf",
+        "sku": 15,
+        "name": "Barbie",
+        "year": 2023,
+        "rating": 3.2,
+        "director": null,
+        "genres": "Comedy",
+        "actors": [],
+        "poster": "https://devsapihub.com/img-movies/15.jpg",
+        "description": "Barbie suffers a crisis that leads her to question her world and her existence."
+    },
+    {
+        "id": "7d39c3a4-dfa2-4535-a8e2-39742c8f6352",
+        "sku": 19,
+        "name": "Everything Everywhere All at Once",
+        "year": 2022,
+        "rating": 5,
+        "director": null,
+        "genres": "Adventure",
+        "actors": [],
+        "poster": "https://devsapihub.com/img-movies/19.jpg",
+        "description": "An aging Chinese immigrant is swept up in a wild adventure where she alone can save the world by exploring other universes."
+    },
+    {
+        "id": "b09ce141-4524-47e1-871a-c964bec64a70",
+        "sku": 18,
+        "name": "The Batman",
+        "year": 2022,
+        "rating": 3.7,
+        "director": null,
+        "genres": "Action",
+        "actors": [],
+        "poster": "https://devsapihub.com/img-movies/18.jpg",
+        "description": "Batman uncovers corruption in Gotham City that connects to his own family while facing the Riddler."
+    },
+    {
+        "id": "d7ca11c7-da3c-48c4-acbf-e8694152d856",
+        "sku": 17,
+        "name": "Avatar: The Way of Water",
+        "year": 2022,
+        "rating": 4.1,
+        "director": null,
+        "genres": "Sci-Fi",
+        "actors": [],
+        "poster": "https://devsapihub.com/img-movies/17.jpg",
+        "description": "Jake Sully lives with his newfound family formed on the planet of Pandora, facing new threats."
+    },
+    {
+        "id": "af55daa9-fc5f-401a-8dc1-8f20d28580e2",
+        "sku": 20,
+        "name": "The Matrix",
+        "year": 1999,
+        "rating": 5,
+        "director": null,
+        "genres": "Sci-Fi",
+        "actors": [],
+        "poster": "https://devsapihub.com/img-movies/20.jpg",
+        "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers."
     }
 ]

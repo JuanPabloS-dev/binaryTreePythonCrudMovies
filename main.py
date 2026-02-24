@@ -1,23 +1,25 @@
 from src.node import Node
 from src.tree import Tree
+from src.api.api import get_api
+from src.models.Movies import Movies
+from helpers.balanced_insert import list_to_tree
 
-peliculas = Tree()
-movies = peliculas.importar_json("movies.json")
-for i in movies:
-    movie = Node(i)
-    peliculas.insertar(movie)
-    
-print(peliculas.size)
-print(peliculas.buscar("Gladiator"))
-for i in peliculas.recorrer("in"):
-    print(i.value)
+data = get_api('https://devsapihub.com/api-movies')
+balanced_data = list_to_tree(data)
+arbol= Tree()
 
-peliculas.guardar_json()
+def insert(data:list):
+    for d in data:
+        movie = Movies(
+            sku = d["id"],  
+            name = d["title"], 
+            year = d["year"],
+            rating = d["stars"],
+            description = d["description"],
+            genres = d["genre"],
+            poster = d["image_url"]
+        )
+        arbol.insert(Node(movie))
 
-
-print(peliculas.eliminar("Gladiator"))
-print(peliculas.eliminar("Parasite"))
-print(peliculas.eliminar("Inception"))
-print("-" * 40)
-for i in peliculas.recorrer("in"):
-    print(i.value)
+insert(balanced_data)
+arbol.guardar_json()
